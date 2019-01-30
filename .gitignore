@@ -1,0 +1,7 @@
+.idea
+.ask
+.terraform
+node_modules
+.python-version
+*tfstate*
+

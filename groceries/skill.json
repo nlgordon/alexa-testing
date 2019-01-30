@@ -1,0 +1,35 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "summary": "Manage your grocery list",
+          "examplePhrases": [
+            "Alexa open groceries",
+            "Alexa ask groceries to add apples"
+          ],
+          "name": "groceries",
+          "description": "Manage your grocery list, ordering, and delivery through this skill"
+        }
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "Sample Testing Instructions.",
+      "category": "EDUCATION_AND_REFERENCE",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "sourceDir": "lambda/custom"
+        }
+      }
+    },
+    "permissions": [
+      {"name": "alexa::profile:name:read"},
+      {"name": "alexa::profile:email:read"},
+      {"name": "alexa::profile:mobile_number:read"},
+      {"name": "alexa::devices:all:address:full:read"}
+    ],
+    "manifestVersion": "1.0"
+  }
+}

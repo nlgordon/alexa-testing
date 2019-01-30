@@ -1,0 +1,83 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "groceries",
+      "types": [
+
+      ],
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": [
+
+          ]
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": [
+
+          ]
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": [
+
+          ]
+        },
+        {
+          "name": "AddItemIntent",
+          "slots": [
+            {
+              "name": "Item",
+              "type": "AMAZON.Food"
+            }
+          ],
+          "samples": [
+            "add {Item}",
+            "add {Item} to my cart",
+            "add {Item} to my shopping cart",
+            "add {Item} to my grocery cart",
+          ]
+        },
+        {
+          "name": "PlaceOrderIntent",
+          "samples": [
+            "place order",
+            "place my order",
+            "submit order",
+            "submit my order"
+          ]
+        },
+        {
+          "name": "ClearCartIntent",
+          "samples": [
+            "clear cart",
+            "delete cart",
+            "empty cart",
+            "discard cart",
+            "remove all items from cart",
+            "clear my cart",
+            "delete my cart",
+            "empty my cart",
+            "discard my cart",
+            "remove all items from my cart",
+            "start a new cart"
+          ]
+        },
+        {
+          "name": "CartContentsIntent",
+          "samples": [
+            "what is in my cart",
+            "get cart contents",
+            "get cart",
+            "get cart items",
+            "list cart",
+            "list cart contents",
+            "list cart items",
+            "tell me what is in my cart"
+          ]
+        }
+      ]
+    }
+  }
+}
